@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #1f1f1f;
+    color: white;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-post {
+    color: black;
+    width: 500px;
+    height: 740px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.post-nombre {
+    width: 500px;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+.post-nombre-texto {
+    width: 410px;
+}
+
+.post-nombre-icono {
+    padding: 0 10px 0 15px;
+}
+
+.post-nombre-icono2 {
+    padding: 0 10px 0 15px;
+}
+
+.post-foto {
+    width: 500px;
+    height: 440px;
+    overflow: hidden;
+}
+
+.post-descripcion {
+    width: 500;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion-iconos {
+    margin: 15px 0 10px 0;
+    padding-left: 5px;
+    width: 466px;
+    height: 30px;
+    align-items: center;
+}
+
+.descripcion-iconos i {
+    padding-right: 10px;
+}
+
+.descripcion-iconos i[class="fa-regular fa-bookmark fa-2xl"] {
+    display: flex;
+    padding-right: 20px;
+    justify-content: right;
+    margin-top: -9px;
+}
+
+.descripcion-like {
+    margin: 5px 0 0 5px;
+    width: auto;
+    height: 30px;
+}
+
+.descripcion-text {
+    margin: 5px 0 0 5px;
+    width: auto;
+}
